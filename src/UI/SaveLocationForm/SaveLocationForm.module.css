@@ -1,0 +1,33 @@
+.locations_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5px;
+	user-select: none;
+}
+
+.locations_wrapper:hover {
+	background: #e5e5e5;
+}
+
+.city {
+	width: 230px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.remove_btn {
+	background: url(./icon/delete_btn.svg);
+	background-size: cover;
+	width: 16px;
+	height: 16px;
+	align-self: center;
+}
+
+.remove_btn:hover {
+	transform: rotate(90deg);
+	transition: 0.7s;
+}

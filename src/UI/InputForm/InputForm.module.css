@@ -1,0 +1,21 @@
+.form {
+	height: 45px;
+	display: flex;
+	justify-content: space-around;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.btn {
+	margin: 10px 21px 12px 20px;
+	background: url(./icon/01.svg);
+	background-size: cover;
+	width: 23px;
+	height: 23px;
+}
+
+.input_text {
+  width: 86%;
+	color: black;
+	margin: 0 0 0 16px;
+}

@@ -1,0 +1,41 @@
+.nav {
+	cursor: pointer;
+	display: flex;
+	user-select: none;
+}
+
+.tab {
+	width: 100px;
+	height: 44px;
+	border-top: 1px solid black;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	padding: 12px 0;
+}
+
+.tab:nth-child(2) {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.tab:nth-child(3) {
+	border-right: 1px solid black;
+}
+
+.tab:hover {
+	height: 43px;
+	background: #e5e5e5;
+	cursor: pointer;
+}
+
+.tab_active {
+	height: 44px;
+	width: 100px;
+	border-top: 1px solid black;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	padding: 12px 0;
+	background: black;
+	color: white;
+}

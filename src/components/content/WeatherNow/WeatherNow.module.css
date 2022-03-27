@@ -1,0 +1,62 @@
+.now_active {
+	opacity: 1;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 345px;
+	width: 300px;
+	user-select: none;
+}
+
+.now {
+	display: none;
+}
+.temp {
+	display: flex;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	line-height: 82px;
+	margin: 20px 23px;
+}
+.img {
+	background: url(../icon/mask.svg) no-repeat;
+	width: 17px;
+	height: 14px;
+	margin: 15px 0 0 3px;
+	padding: 17px 0 0 3px;
+}
+.city {
+	font-size: 24px;
+	line-height: 28px;
+	align-self: flex-end;
+	margin: 17px 12px;
+	position: absolute;
+}
+.cloud {
+	position: absolute;
+	top: 75px;
+	left: 55px;
+}
+
+.btn_save:checked::after {
+	content: "";
+	width: 26px;
+	height: 26px;
+	background: url(../icon/Shape_like_fill.svg) no-repeat;
+}
+
+#checkbox {
+	display: flex;
+	align-self: flex-end;
+	margin: 23px 26px;
+	width: 26px;
+	height: 26px;
+	top: 100px;
+	background: url(../icon/Shape_like.svg) no-repeat;
+	-webkit-appearance: none;
+	appearance: none;
+}

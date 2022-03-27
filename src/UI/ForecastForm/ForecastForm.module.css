@@ -1,0 +1,57 @@
+.form {
+	width: 260px;
+	height: 120px;
+	border: 1px solid rgba(0, 0, 0, 1);
+	margin: 0 16px 9px 18px;
+	display: flex;
+	flex-direction: column;
+}
+.date {
+	font-size: 18px;
+	line-height: 21px;
+}
+.date:first-child {
+	margin: 6px 8px;
+}
+.date:nth-child(2) {
+	margin: 6px 15px;
+	align-self: flex-end;
+	position: relative;
+	bottom: 34px;
+}
+.temp {
+	display: flex;
+	margin-left: 8px;
+	font-size: 18px;
+	line-height: 21px;
+}
+.img {
+	background: url(./icon/mask1.svg) no-repeat;
+	width: 5px;
+	height: 5px;
+	margin: 3px 0 0 3px;
+	padding: 5px 20px;
+}
+.weather_wrapper {
+	font-size: 18px;
+	line-height: 21px;
+	position: relative;
+	bottom: 58px;
+	margin: 0 10px 10px 0;
+	align-self: flex-end;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.weather_p {
+	text-align: right;
+	margin: 0 auto;
+}
+
+.weather_img {
+	height: 50px;
+	width: 50px;
+	align-self: flex-end;
+	margin: -13px auto 0;
+}

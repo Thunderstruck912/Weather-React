@@ -1,0 +1,26 @@
+.conteiner {
+	width: 50%;
+	height: 390px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.title_wrapper {
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-left: none;
+	border-right: none;
+	height: 68px;
+	align-items: stretch;
+}
+.title {
+	display: block;
+	margin: 33px 0 9px 18px;
+	user-select: none;
+}
+
+.locations_wrapper {
+	height: 322px;
+	padding: 35px 18px;
+	overflow-x: hidden;
+}

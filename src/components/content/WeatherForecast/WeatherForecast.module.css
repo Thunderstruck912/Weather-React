@@ -1,0 +1,18 @@
+.forecast_active {
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	overflow-x: hidden;
+	border-right: 1px solid black;
+	height: 345px;
+	width: 300px;
+}
+.forecast {
+	display: none;
+}
+.city {
+	font-size: 24px;
+	line-height: 28px;
+	margin: 33px 17px 7px 17px;
+}

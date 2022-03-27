@@ -1,0 +1,35 @@
+.details_active {
+	opacity: 1;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 345px;
+	width: 300px;
+}
+.details {
+	display: none;
+}
+
+.img {
+	background: url(../icon/mask1.svg) no-repeat;
+	width: 5px;
+	height: 5px;
+	margin: 5px 0 0 3px;
+	padding: 10px;
+}
+
+.info {
+	font-size: 24px;
+	line-height: 28px;
+	padding: 0 15px 0px 15px;
+	display: flex;
+}
+.info:last-child {
+	margin-bottom: 46px;
+}
+
+.city {
+	font-size: 24px;
+	line-height: 28px;
+	padding: 33px 17px 42px 17px;
+}

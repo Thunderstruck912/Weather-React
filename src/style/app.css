@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background: #e5e5e5;
+	box-sizing: border-box;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+::-webkit-scrollbar-button {
+	background-repeat: no-repeat;
+	width: 5px;
+	height: 0px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #ecedee;
+}
+
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #000000;
+}
+
+::-webkit-resizer {
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 0px;
+}
+
+::-webkit-scrollbar {
+	width: 1px;
+}
+
+[type="text"],
+[type="button"],
+[type="checkbox"],
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.App {
+	margin: 10px auto;
+	width: 625px;
+	height: 462px;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.main {
+	margin: 13px;
+	border: 1px solid rgba(0, 0, 0, 1);
+	width: 600px;
+	height: 435px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 390px;
+}
