@@ -1,5 +1,9 @@
 # Weather
 
+### `GitHub Pages`
+
+Open https://thunderstruck912.github.io/Weather-React/
+
 ### `npm start`
 
 Runs the app in the development mode.\
