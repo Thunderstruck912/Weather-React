@@ -34,7 +34,7 @@ const SaveLocationsList: FC = () => {
 
 	const removeLocation = (value: string): void => {
 		dispatch(saveLocationsSlice.actions.removeLocation(value));
-		dispatch(weatherSlice.actions.weatherSave(false));
+		weather.name === value && dispatch(weatherSlice.actions.weatherSave(false));
 	};
 
 	return (
